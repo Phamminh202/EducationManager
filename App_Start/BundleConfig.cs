@@ -13,7 +13,7 @@ namespace EducationManager
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
+/*            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
@@ -21,7 +21,7 @@ namespace EducationManager
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css"));*/
 
             // Add css AdminLTE
             bundles.Add(new StyleBundle("~/AdminLTE/css").Include(
@@ -89,7 +89,6 @@ namespace EducationManager
                     "~/Content/assets/libs/smooth-scroll/dist/smooth-scroll.min.js",
                     "~/Content/assets/libs/typed.js/lib/typed.min.js",
                     "~/Content/assets/js/theme.min.js"
-
                 ));
         }
     }
